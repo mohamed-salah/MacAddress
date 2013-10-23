@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="com.phonegap.plugins"
+  version="0.1.0">
+  <name>MacAddress</name>
+  <description>Cordova MacAddress Plugin</description>
+  <license>Apache 2.0</license>
+  <keywords>cordova,MacAddress</keywords>
+
+
+  <js-module src="www/MacAddress.js" name="MacAddress">
+    <clobbers target="window.MacAddress" />
+  </js-module>
+
+  <!-- android -->
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="MacAddress">
+        <param name="android-package" value="com.phonegap.plugins.MacAddressPlugin"/>
+      </feature>
+    </config-file>
+    <config-file target="AndroidManifest.xml" parent="/*">
+      <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    </config-file>
+
+    <source-file src="src/android/MacAddressPlugin.java" target-dir="src/com/phonegap/plugins/" />
+  </platform>
+
+</plugin>
