@@ -28,4 +28,16 @@
     <source-file src="src/android/MacAddressPlugin.java" target-dir="src/com/phonegap/plugins/" />
   </platform>
 
+  <!-- ios -->
+  <platform name="ios">
+   <config-file target="config.xml" parent="/*">
+     <feature name="MacAddress">
+       <param name="ios-package" value="MacAddressPlugin" />
+     </feature>
+   </config-file>
+
+   <header-file src="src/ios/MacAddressPlugin.h" />
+   <source-file src="src/ios/MacAddressPlugin.m" />
+ </platform>
+
 </plugin>

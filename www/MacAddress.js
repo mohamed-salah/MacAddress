@@ -10,7 +10,7 @@
  var MacAddress = {
 
  	getMacAddress: function(successCallback, failureCallback){
- 		cordova.exec(successCallback, failureCallback, 'MacAddress',
+ 		cordova.exec(successCallback, failureCallback, 'MacAddressPlugin',
  			'getMacAddress', []);
  	}
  };
