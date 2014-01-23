@@ -1,8 +1,10 @@
-# MacAddress plugin for Phonegap 3 (Android) #
+# MacAddress plugin for Phonegap 3 (Android, iOS) #
 
 This Plugin is inspired from MacAddress plugin
 
-[here](https://github.com/phonegap/phonegap-plugins/tree/master/Android/MacAddress)
+[Android here](https://github.com/phonegap/phonegap-plugins/tree/master/Android/MacAddress)
+[iOS here](https://github.com/jcesarmobile/my-phonegap-plugins/tree/master/iOS/MacAddressPlugin)
+
 
 ## Adding the Plugin to your project ##
 

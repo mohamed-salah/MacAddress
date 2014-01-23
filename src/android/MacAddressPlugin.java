@@ -1,4 +1,4 @@
-package com.phonegap.plugins;
+package com.badrit.MacAddress;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
