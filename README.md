@@ -11,7 +11,7 @@ This Plugin is inspired from MacAddress plugin
 
 for phonegap 3 (CLI)
 <pre>
-     phonegap local plugin add https://github.com/mohamed-salah/MacAddressPlugin.git
+     phonegap local plugin add https://github.com/mohamed-salah/phonegap-macaddress-plugin.git
 </pre>
 ## Using the plugin ##
 
