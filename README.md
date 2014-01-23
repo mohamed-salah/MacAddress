@@ -11,14 +11,14 @@ This Plugin is inspired from MacAddress plugin
 
 for phonegap 3 (CLI)
 <pre>
-phonegap local plugin add https://github.com/mohamed-salah/MacAddressPlugin.git
+     phonegap local plugin add https://github.com/mohamed-salah/MacAddressPlugin.git
 </pre>
 ## Using the plugin ##
 
 <pre>
-	var successCallback = function(macAddress){console.log(macAddress)};
-	var failureCallback = function(){};
-	window.MacAddress.getMacAddress(successCallback,failureCallback);
+     var successCallback = function(macAddress){console.log(macAddress)};
+     var failureCallback = function(){};
+     window.MacAddress.getMacAddress(successCallback,failureCallback);
 </pre>
 
 
