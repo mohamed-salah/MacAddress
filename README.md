@@ -2,8 +2,9 @@
 
 This Plugin is inspired from MacAddress plugin
 
-[Android here](https://github.com/phonegap/phonegap-plugins/tree/master/Android/MacAddress)
-[iOS here](https://github.com/jcesarmobile/my-phonegap-plugins/tree/master/iOS/MacAddressPlugin)
+[Android plugin here](https://github.com/phonegap/phonegap-plugins/tree/master/Android/MacAddress)
+
+[iOS plugin here](https://github.com/jcesarmobile/my-phonegap-plugins/tree/master/iOS/MacAddressPlugin)
 
 
 ## Adding the Plugin to your project ##
