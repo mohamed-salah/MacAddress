@@ -1,26 +1,28 @@
-# MacAddress plugin for Phonegap 3 (Android, iOS) #
+# MacAddress plugin for Cordova / PhoneGap
 
 This Plugin is inspired from MacAddress plugin
+[here](https://github.com/purplecabbage/phonegap-plugins/tree/master/Android/MacAddress)
+and [here](https://github.com/jcesarmobile/my-phonegap-plugins/tree/master/iOS/MacAddressPlugin)
 
-[Android plugin here](https://github.com/phonegap/phonegap-plugins/tree/master/Android/MacAddress)
 
-[iOS plugin here](https://github.com/jcesarmobile/my-phonegap-plugins/tree/master/iOS/MacAddressPlugin)
+This Plugin returns the MAC address for an iOS device or Android 
 
+This has been successfully tested on Cordova version 3.1.0.
 
 ## Adding the Plugin to your project ##
 
-for phonegap 3 (CLI)
+**For phonegap 3 (CLI)**
 <pre>
-     phonegap local plugin add https://github.com/mohamed-salah/phonegap-macaddress-plugin.git
-</pre>
-## Using the plugin ##
-
-<pre>
-     var successCallback = function(macAddress){console.log(macAddress)};
-     var failureCallback = function(){};
-     window.MacAddress.getMacAddress(successCallback,failureCallback);
+phonegap local plugin add https://github.com/mohamed-salah/MacAddress.git
 </pre>
 
+**Example Usage:**
+
+```js
+window.MacAddress.getMacAddress(
+function(macAddress) {alert(macAddress);},function(fail) {alert(fail);}
+);
+```
 
 ## MIT Licence
 
