@@ -9,8 +9,9 @@ This Plugin is inspired from MacAddress plugin
 ## Adding the Plugin to your project ##
 
 for phonegap 3 (CLI)
+<pre>
 phonegap local plugin add https://github.com/mohamed-salah/MacAddressPlugin.git
-
+</pre>
 ## Using the plugin ##
 
 <pre>
