@@ -22,6 +22,18 @@ function(macAddress) {alert(macAddress);},function(fail) {alert(fail);}
 );
 ```
 
+## Installation 
+
+for Cordova >= 3.0.0
+
+phonegap local plugin add https://github.com/mohamed-salah/MacAddress.git
+
+cordova plugin add https://github.com/mohamed-salah/MacAddress.git
+
+for Cordova >= 5.0.0
+
+cordova plugin add com-badrit-macaddress
+
 ## MIT Licence
 
 Copyright 2013 Monday Consulting GmbH
