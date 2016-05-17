@@ -7,21 +7,6 @@ device MacAddress could be retrieved for Android/iOS devices.
 
 It has been successfully tested on Cordova version 3.1.0.
 
-## Adding the Plugin to your project ##
-
-**For phonegap 3 (CLI)**
-<pre>
-phonegap local plugin add https://github.com/mohamed-salah/MacAddress.git
-</pre>
-
-**Example Usage:**
-
-```js
-window.MacAddress.getMacAddress(
-function(macAddress) {alert(macAddress);},function(fail) {alert(fail);}
-);
-```
-
 ## Installation 
 
 for Cordova >= 3.0.0
@@ -33,6 +18,14 @@ cordova plugin add https://github.com/mohamed-salah/MacAddress.git
 for Cordova >= 5.0.0
 
 cordova plugin add com-badrit-macaddress
+
+**Example Usage:**
+
+```js
+window.MacAddress.getMacAddress(
+function(macAddress) {alert(macAddress);},function(fail) {alert(fail);}
+);
+```
 
 ## MIT Licence
 
